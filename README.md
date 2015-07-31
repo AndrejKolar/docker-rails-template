@@ -4,6 +4,32 @@ Template for creating Docker containers for Ruby on Rails
 Template is from the docker-compose [tutorial](https://docs.docker.com/compose/rails/). 
 Creates two docker containers, one for the app and one for the postresql database.
 
+## Setup Docker
+
+Install [VirtualBox](https://www.virtualbox.org)
+
+Install Docker and Boot2Docker
+```bash
+$ brew update
+$ brew install docker
+$ brew install boot2docker
+```
+
+Init and start
+```bash
+$ boot2docker init
+$ boot2docker up
+```
+
+Setup the docker host enviroment variable (ip address is from `boot2docker up`)
+```bash
+$ export DOCKER_HOST=tcp://192.168.59.103:2375
+```
+
+Port forwarding should be setup in VirtualBox for the Docker image
+
+
+
 ## Build
 
 Run 
