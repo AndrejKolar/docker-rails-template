@@ -28,7 +28,11 @@ $ export DOCKER_HOST=tcp://192.168.59.103:2375
 
 Port forwarding should be setup in VirtualBox for the Docker image
 
-
+Install `docker-compose`
+```bash
+$ curl -L https://github.com/docker/compose/releases/download/1.3.3/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+$ chmod +x /usr/local/bin/docker-compose
+```
 
 ## Build
 
