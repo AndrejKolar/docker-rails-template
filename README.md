@@ -2,7 +2,7 @@
 Template for creating Docker containers for Ruby on Rails
 
 Template is from the docker-compose [tutorial](https://docs.docker.com/compose/rails/).
-Creates two docker containers, one for the app and one for the postresql database.
+Creates two docker containers, one for the Rails app and one for the PostgreSQL database.
 
 ## Setup Docker
 
