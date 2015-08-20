@@ -7,6 +7,7 @@ Creates two docker containers, one for the Rails app and one for the PostgreSQL 
 ## Setup Docker
 
 Install [VirtualBox](https://www.virtualbox.org)
+
 Install [Docker](https://docs.docker.com/installation/mac/) and other tools
 
 
