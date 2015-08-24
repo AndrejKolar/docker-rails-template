@@ -16,10 +16,6 @@ Init and start
 $ docker-machine create --driver virtualbox default
 ```
 
-Setup the docker host enviroment variable (ip address is from `docker-machine env default`)
-```bash
-$ export DOCKER_HOST=tcp://192.168.59.103:2375
-```
 Connect the shell to the default `default` machine
 ```bash
 $ eval "$(docker-machine env default)"
