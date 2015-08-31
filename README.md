@@ -68,6 +68,11 @@ $ docker-compose run web rake db:create
 
 ## Run
 
+Boot the app
+```bash
+$ docker-compose up
+```
+
 Run commands
 ```bash
 $ docker-compose run web
