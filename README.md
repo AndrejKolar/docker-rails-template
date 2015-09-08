@@ -68,6 +68,11 @@ $ docker-compose run web rake db:create
 
 ## Run
 
+Connect the shell to the default `default` machine
+```bash
+$ eval "$(docker-machine env default)"
+```
+
 Boot the app
 ```bash
 $ docker-compose up
